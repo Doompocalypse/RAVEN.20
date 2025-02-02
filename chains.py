@@ -28,7 +28,7 @@ please give me the answer 2 3 line evry time
 )
 
 # Load your vectorstore
-vector_store = FAISS.load_local(r"D:\projects\ragwith memory\faissindexupdate10", embeddings, allow_dangerous_deserialization=True)
+vector_store = FAISS.load_local(r"faissindexupdate10", embeddings, allow_dangerous_deserialization=True)
 
 # Create document chain
 document_chain = create_stuff_documents_chain(chat_model, prompt_template)
