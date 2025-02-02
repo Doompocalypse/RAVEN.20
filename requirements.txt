@@ -5,3 +5,4 @@ langchain-google-genai
 langchain-community
 langchain-core
 faiss-cpu
+langchain_groq
