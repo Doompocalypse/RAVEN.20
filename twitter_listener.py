@@ -1,7 +1,7 @@
 import tweepy
 import time
 import random
-from twitter_auth import client, api
+from twitter_auth import api
 from twitter_keywords import TWITTER_KEYWORDS
 from raven_ai import generate_raven_response
 
